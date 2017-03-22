@@ -6,23 +6,23 @@
 
 	<context:component-scan base-package="spring.tiles.controller" />
 
-	<bean id="tilesviewResolver"
-		class="org.springframework.web.servlet.view.tiles3.TilesViewResolver" />
+	<bean id="tilesviewResolver" class="org.springframework.web.servlet.view.tiles3.TilesViewResolver" />
 
-	<bean id="tilesConfigurer"
-		class="org.springframework.web.servlet.view.tiles3.TilesConfigurer">
+
+	<bean id="tilesConfigurer" class="org.springframework.web.servlet.view.tiles3.TilesConfigurer">
 		<property name="definitions">
 			<list>
 				<value>/WEB-INF/tiles_def/tilesdef.xml</value>
 			</list>
 		</property>
-		<property name="preparerFactoryClass"
-			value="org.springframework.web.servlet.view.tiles3.SpringBeanPreparerFactory" />
+		<property name="preparerFactoryClass" value="org.springframework.web.servlet.view.tiles3.SpringBeanPreparerFactory" />
 	</bean>
-	<bean id="menuPreparer" class="spring.tiles.controller.MenuPreparer"></bean>
+	
+	
+	<bean id="menuPreparer" class="spring.tiles.MenuPreparer"></bean>
 
-	<bean id="messageSource"
-		class="org.springframework.context.support.ResourceBundleMessageSource">
+
+	<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
 		<property name="basenames">
 			<list>
 				<value>messages.validation</value>
@@ -30,6 +30,5 @@
 			</list>
 		</property>
 	</bean>
-
 
 </beans>

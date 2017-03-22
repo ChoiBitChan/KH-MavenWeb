@@ -1,4 +1,4 @@
-package spring.tiles.controller;
+package spring.tiles;
 
 import java.util.ArrayList;
 import java.util.List;

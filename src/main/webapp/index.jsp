@@ -69,6 +69,9 @@
 	<br/>
 	Tiles [Login]<br/>
 	<a href="tiles/login/login.do">/tiles/login/login.do</a><br/>
+	<br/>
+	Tiles [Member]<br/>
+	<a href="tiles/member/regist.do">/tiles/member/regist.do</a><br/>
 	
 </body>
 </html>
