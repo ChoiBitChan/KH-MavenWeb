@@ -48,6 +48,27 @@
 	<br/>
 	City<br/>
 	<a href="city/city.do">/city/city.do</a><br/>
+	<br/>
+	View [Login]<br/>
+	<a href="jsp/login/login.do">/jsp/login/login.do</a><br/>
+	<br/>
+	View [Member]<br/>
+	<a href="jsp/member/regist.do">/jsp/member/regist.do</a><br/>
+	<br/>
+	changeLanguage [Interceptor 이용]<br/>
+	<a href="jsp/login/login.do?language=ko">/jsp/login/login.do?language=ko</a><br/>
+	<a href="jsp/login/login.do?language=en">/jsp/login/login.do?language=en</a><br/>
+	<br/>
+	changeLanguage [localeResolver 이용]<br/>
+	<a href="jsp/changeLanguage?lang=ko">/jsp/changeLanguage?lang=ko</a><br/>
+	<a href="jsp/changeLanguage?lang=en">/jsp/changeLanguage?lang=en</a><br/>
+	<br/>
+	changeLanguage [RequestContextUtils 이용]<br/>
+	<a href="jsp/changeLanguage2?lang=ko">/jsp/changeLanguage2?lang=ko</a><br/>
+	<a href="jsp/changeLanguage2?lang=en">/jsp/changeLanguage2?lang=en</a><br/>
+	<br/>
+	Tiles [Login]<br/>
+	<a href="tiles/login/login.do">/tiles/login/login.do</a><br/>
 	
 </body>
 </html>
