@@ -72,6 +72,21 @@
 	<br/>
 	Tiles [Member]<br/>
 	<a href="tiles/member/regist.do">/tiles/member/regist.do</a><br/>
+	<br/>
+	Download [file]<br/>
+	<a href="download/file.do">/download/file.do</a><br/>
+	<br/>
+	Download [xls]<br/>
+	<a href="download/pageRanks.do">/download/pageRanks.do</a><br/>
+	<br/>
+	Download [pdf]<br/>
+	<a href="download/pageReport.do">/download/pageReport.do</a><br/>
+	<br/>
+	MarshallingView [xml]<br/>
+	<a href="download/pageXmlReport.do">/download/pageXmlReport.do</a><br/>
+	<br/>
+	MappingJacksonJsonView [JSON]<br/>
+	<a href="download/pageJsonReport.do">/download/pageJsonReport.do</a><br/>
 	
 </body>
 </html>
