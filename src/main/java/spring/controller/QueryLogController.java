@@ -22,6 +22,8 @@ public class QueryLogController {
 	
 	@RequestMapping("/log/query.do")
 	public String query(@ModelAttribute("command") QueryLogCommand command, BindingResult result) {
+		System.out.println(command.getFrom());
+		System.out.println(command.getTo());
 		return "log/logList";
 	}
 	
